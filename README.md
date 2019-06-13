@@ -9,6 +9,7 @@ cd lumen-files-api
 
 ```bash
 docker-compose up --build -d
+docker-compose exec php php ../artisan migrate:fresh --seed
 ```
 
 Navigate to [http://localhost:81](http://localhost:81) and you should see the api is responding
