@@ -9,6 +9,7 @@ cd lumen-files-api
 
 ```bash
 docker-compose up --build -d
+docker-compose exec php yes | composer install --no-dev
 docker-compose exec php php ../artisan migrate:fresh --seed
 ```
 
