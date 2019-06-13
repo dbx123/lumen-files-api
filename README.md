@@ -36,6 +36,7 @@ GET         /files          - list files
 GET         /files/{fileId} - get file by id
 
 POST        /files          - store a file
+![image](postman.png)
 
 DELETE      /files/{fileId} - delete a file
 
